@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: asm_benchmarks_development
+  database: ams_benchmarks_development
   pool: 5
   username: 
   password:
@@ -30,7 +30,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: asm_benchmarks_test
+  database: ams_benchmarks_test
   pool: 5
   username:
   password:
@@ -38,7 +38,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: asm_benchmarks_development
+  database: ams_benchmarks_development
   pool: 5
   username:
   password:

@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-AsmBenchmarks::Application.config.secret_key_base = '98b1bfd7cf59518735fce1bfffc57d6dd6218b8c37c411bac9629d8095860900c80c8e73568911f212d5e3d7e2239b2fe401ec85c9b4085912f351b16830a108'
+AmsBenchmarks::Application.config.secret_key_base = '98b1bfd7cf59518735fce1bfffc57d6dd6218b8c37c411bac9629d8095860900c80c8e73568911f212d5e3d7e2239b2fe401ec85c9b4085912f351b16830a108'

@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-AsmBenchmarks::Application.load_tasks
+AmsBenchmarks::Application.load_tasks

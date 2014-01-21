@@ -1,5 +1,5 @@
-AsmBenchmarks::Application.routes.draw do
-  resources :notes
+AmsBenchmarks::Application.routes.draw do
+  resources :notes, defaults: { format: :json }
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
