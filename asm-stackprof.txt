@@ -1,0 +1,36 @@
+==================================
+  Mode: cpu(1000)
+  Samples: 70185 (0.23% miss rate)
+  GC: 5694 (8.11%)
+==================================
+     TOTAL    (pct)     SAMPLES    (pct)     FRAME
+     13449  (19.2%)        7173  (10.2%)     ActiveRecord::ConnectionAdapters::PostgreSQLAdapter#exec_cache
+     15969  (22.8%)        5555   (7.9%)     Logger#add
+      4591   (6.5%)        4591   (6.5%)     block in Logger::LogDevice#write
+      3634   (5.2%)        3632   (5.2%)     ActiveRecord::ConnectionAdapters::Quoting#type_cast
+      2279   (3.2%)        2279   (3.2%)     block (2 levels) in <class:Numeric>
+      2087   (3.0%)        2087   (3.0%)     ActiveSupport::PerThreadRegistry#per_thread_registry_instance
+      3455   (4.9%)        2004   (2.9%)     MonitorMixin#mon_exit
+      1451   (2.1%)        1451   (2.1%)     MonitorMixin#mon_check_owner
+      1221   (1.7%)        1221   (1.7%)     #<Module:0x007f937dfacf18>.escape
+      1192   (1.7%)        1192   (1.7%)     Set#include?
+      1026   (1.5%)        1026   (1.5%)     ThreadSafe::NonConcurrentCacheBackend#[]
+       914   (1.3%)         914   (1.3%)     Logger#format_severity
+       871   (1.2%)         871   (1.2%)     Arel::Visitors::Visitor#dispatch
+      4408   (6.3%)         774   (1.1%)     ActiveRecord::ConnectionAdapters::PostgreSQLAdapter::Quoting#type_cast
+       962   (1.4%)         678   (1.0%)     ActiveRecord::Relation#initialize_copy
+       658   (0.9%)         658   (0.9%)     ActiveSupport::JSON::Encoding::Encoder#options_for
+       599   (0.9%)         599   (0.9%)     ActiveRecord::Base.logger
+       551   (0.8%)         494   (0.7%)     ActiveRecord::Scoping::Default::ClassMethods#build_default_scope
+       560   (0.8%)         484   (0.7%)     ActiveRecord::Core#init_internals
+       483   (0.7%)         483   (0.7%)     ActiveSupport::Logger::SimpleFormatter#call
+      1697   (2.4%)         477   (0.7%)     ActiveRecord::AttributeMethods::Read#read_attribute
+       457   (0.7%)         457   (0.7%)     ActiveRecord::AttributeMethods::Read::ClassMethods#cached_attributes
+      1220   (1.7%)         443   (0.6%)     block in ActiveRecord::AttributeMethods::Read#read_attribute
+       828   (1.2%)         436   (0.6%)     Set#initialize
+     34084  (48.6%)         434   (0.6%)     ActiveRecord::ConnectionAdapters::QueryCache#cache_sql
+       427   (0.6%)         427   (0.6%)     ActiveRecord::Relation#initialize
+       392   (0.6%)         392   (0.6%)     ActiveRecord::Associations::AssociationScope#reflection
+       527   (0.8%)         381   (0.5%)     ActiveModel::Serializer::Associations::Config#option
+       377   (0.5%)         377   (0.5%)     block (4 levels) in Class#class_attribute
+       360   (0.5%)         360   (0.5%)     ActiveRecord::ModelSchema::ClassMethods#initialize_attributes

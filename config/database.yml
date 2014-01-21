@@ -38,7 +38,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: asm_benchmarks_production
+  database: asm_benchmarks_development
   pool: 5
   username:
   password:

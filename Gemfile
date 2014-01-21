@@ -23,8 +23,9 @@ gem 'jquery-rails'
 
 gem 'active_model_serializers'
 gem 'postgres_ext'
-# gem 'postgres_ext-serializers', path: '../postgres_ext-serializers'
+ gem 'postgres_ext-serializers', path: '../postgres_ext-serializers'
 gem 'byebug'
+gem 'stackprof'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

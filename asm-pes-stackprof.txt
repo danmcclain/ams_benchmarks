@@ -1,0 +1,36 @@
+==================================
+  Mode: cpu(1000)
+  Samples: 277 (1.77% miss rate)
+  GC: 30 (10.83%)
+==================================
+     TOTAL    (pct)     SAMPLES    (pct)     FRAME
+       103  (37.2%)         103  (37.2%)     ActiveRecord::ConnectionAdapters::PostgreSQLAdapter#exec_no_cache
+        53  (19.1%)          24   (8.7%)     Logger#add
+        24   (8.7%)          24   (8.7%)     Rack::ETag#digest_body
+        17   (6.1%)          17   (6.1%)     PG::Result#values
+        12   (4.3%)          12   (4.3%)     Logger::Formatter#format_datetime
+         7   (2.5%)           7   (2.5%)     block in Logger::LogDevice#write
+         6   (2.2%)           6   (2.2%)     ActiveSupport::PerThreadRegistry#per_thread_registry_instance
+        17   (6.1%)           5   (1.8%)     Logger::Formatter#call
+         3   (1.1%)           3   (1.1%)     ActiveRecord::Base.logger
+         3   (1.1%)           3   (1.1%)     Logger#format_severity
+         2   (0.7%)           2   (0.7%)     block in AbstractController::Base.action_methods
+         3   (1.1%)           2   (0.7%)     block (2 levels) in ActiveRecord::ConnectionAdapters::PostgreSQLAdapter::DatabaseStatements#exec_query
+         2   (0.7%)           2   (0.7%)     Arel::Nodes::Function#initialize
+         2   (0.7%)           2   (0.7%)     Arel::Visitors::Visitor#dispatch
+         2   (0.7%)           2   (0.7%)     ThreadSafe::NonConcurrentCacheBackend#[]
+         1   (0.4%)           1   (0.4%)     ActiveSupport::Configurable::ClassMethods#config
+         1   (0.4%)           1   (0.4%)     Arel::SelectManager#distinct
+         1   (0.4%)           1   (0.4%)     ThreadSafe::NonConcurrentCacheBackend#[]=
+         1   (0.4%)           1   (0.4%)     NilClass#try
+         1   (0.4%)           1   (0.4%)     ActionDispatch::Journey::Path::Pattern::MatchData#[]
+         1   (0.4%)           1   (0.4%)     ActionDispatch::Journey::GTG::Builder#transition_table
+         1   (0.4%)           1   (0.4%)     block in ActiveRecord::ConnectionAdapters::PostgreSQLAdapter#initialize_type_map
+         1   (0.4%)           1   (0.4%)     block in ActiveRecord::ConnectionAdapters::PostgreSQLAdapter#initialize_type_map
+         1   (0.4%)           1   (0.4%)     ActiveRecord::Scoping::Default::ClassMethods#build_default_scope
+         2   (0.7%)           1   (0.4%)     ActiveRecord::ConnectionAdapters::PostgreSQLAdapter#connect
+         1   (0.4%)           1   (0.4%)     ActiveRecord::ConnectionAdapters::DatabaseStatements#reset_transaction
+         1   (0.4%)           1   (0.4%)     Rack::Request#split_ip_addresses
+         1   (0.4%)           1   (0.4%)     #<Module:0x007ff899e72dd8>.mechanism
+         1   (0.4%)           1   (0.4%)     block in ActiveSupport::Dependencies#search_for_file
+         1   (0.4%)           1   (0.4%)     block in ActiveRecord::ConnectionAdapters::AbstractAdapter#initialize
