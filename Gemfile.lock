@@ -1,10 +1,3 @@
-PATH
-  remote: ../postgres_ext-serializers
-  specs:
-    postgres_ext-serializers (0.0.1)
-      active_model_serializers
-      postgres_ext (~> 2.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -129,7 +122,6 @@ DEPENDENCIES
   jquery-rails
   pg
   postgres_ext
-  postgres_ext-serializers!
   rails (= 4.0.2)
   sass-rails (~> 4.0.0)
   sdoc

@@ -5,7 +5,6 @@ require 'rails/all'
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
-require 'postgres_ext/serializers'
 
 module AmsBenchmarks
   class Application < Rails::Application
